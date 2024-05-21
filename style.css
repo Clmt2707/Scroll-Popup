@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 80%;
     height: 100%;
     margin: auto;
 }
@@ -101,5 +101,48 @@ p::first-letter {
 
 .adapt img {
     width: 50%;
+}
+
+.improvise {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+}
+
+.improvise p {
+    line-height: 24px;
+}
+
+#imgImprovise {
+    width: 60%;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: 1s ease-in;
+}
+
+.overcome {
+    padding: 2rem;
+    background: rgba(52, 187, 255, 0.287);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.overcome h2 {
+    text-align: center;
+}
+
+.overcome img {
+    width: 90%;
+}
+
+@media screen and (max-width: 999px){
+    main {
+        padding: 0 2rem;
+    }
+
 }
 
