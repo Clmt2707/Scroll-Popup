@@ -85,3 +85,21 @@ p::first-letter {
     font-size: 1.5rem;
     color: rgb(0, 144, 216);
 }
+
+.adapt {
+    display: flex;
+    align-items: center;
+    padding: 6rem 1rem 1rem 0;
+    margin-bottom: 3rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dummy-adapt {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.adapt img {
+    width: 50%;
+}
+
